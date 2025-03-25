@@ -1,0 +1,47 @@
+img {
+	display: block;
+	margin: 0 auto;
+	width: 40px;
+	height: 30px;
+}
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+h1 {
+	text-align: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"], select {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.expiry-date {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	width: 100%;
+	background-color: #081c9e;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
